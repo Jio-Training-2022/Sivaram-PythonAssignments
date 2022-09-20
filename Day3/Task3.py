@@ -1,3 +1,4 @@
+# Print First N natural numbers taking N as an input from user.
 N=int(input())
 for i in range (N+1):
   print(i, end = " ")
@@ -7,7 +8,7 @@ for i in range (N+1):
 23
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 
 '''
-
+# Print Table of 5, 6, 7, 8, 9, 10
 lst = []
 n = int(input("Enter multiplication table number size : "))
 for i in range(1, n+1):
